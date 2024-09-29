@@ -17,7 +17,7 @@
                 "id": "1"
             },
             "destinationStepIdentifier": {
-                "id": "14"
+                "id": "3"
             }
         },
         {
@@ -63,21 +63,6 @@
         },
         {
             "stepIdentifier": {
-                "id": "14"
-            },
-            "type": "question",
-            "isOptional": true,
-            "title": "Before we begin",
-            "text": "In order to provide our services, this app will collect and use your sensitive health data based on your consent.",
-            "answerFormat": {
-                "type": "agreement",
-                "defaultValue": "NEGATIVE",
-                "markdownDescription": "Please read our [Privacy Notice](https://www.healthylongevity.cafe/privacy) carefully to ensure that you understand it fully.",
-                "markdownAgreementText": "By clicking this option you consent to the collection and processing of your personal data according to our [Privacy Notice](https://www.healthylongevity.cafe/privacy)"
-            }
-        },
-        {
-            "stepIdentifier": {
                 "id": "2"
             },
             "type": "question",
@@ -99,7 +84,7 @@
                 "type": "bool",
                 "positiveAnswer": "Yes",
                 "negativeAnswer": "No",
-                "result": "POSITIVE"
+                "result": "positive"
             }
         },
         {
@@ -250,6 +235,7 @@
                         "text": "Latex",
                         "value": "Latex"
                     }
+
                 ],
                 "suggestions": [{
                         "text": "Pet",
@@ -297,21 +283,6 @@
                         "value": "Small Animal"
                     }
                 ]
-            }
-        },
-        {
-            "stepIdentifier": {
-                "id": "12"
-            },
-            "type": "question",
-            "title": "Upload a selfie",
-            "answerFormat": {
-                "type": "file",
-                "defaultValue": "https://www.maxicolor.com.br/wp-content/uploads/2019/11/placeholder-3x4-450x600.jpg",
-                "buttonText": "Selfie",
-                "useGallery": true,
-                "hintImage": "https://www.maxicolor.com.br/wp-content/uploads/2019/11/placeholder-3x4-450x600.jpg",
-                "hintTitle": "How the image should look"
             }
         }
     ]
